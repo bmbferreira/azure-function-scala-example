@@ -6,15 +6,13 @@ import com.microsoft.azure.functions._
 
 import scala.collection.JavaConversions._
 
-/**
-  * Azure Functions with HTTP Trigger.
-  */
+
 class Function {
 
   /**
-    * This function listens at endpoint "/api/HttpTrigger-Java". Two ways to invoke it using "curl" command in bash:
-    * 1. curl -d "HTTP Body" {your host}/api/HttpTrigger-Java
-    * 2. curl {your host}/api/HttpTrigger-Java?name=HTTP%20Query
+    * This function listens at endpoint "/api/ScalaFunction". Two ways to invoke it using "curl" command in bash:
+    * 1. curl -d "HTTP Body" {your host}/api/ScalaFunction
+    * 2. curl {your host}/api/ScalaFunction?name=HTTP%20Query
     */
   @FunctionName("ScalaFunction")
   def run(
