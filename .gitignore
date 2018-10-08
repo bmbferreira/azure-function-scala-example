@@ -83,4 +83,4 @@ project/plugins/project/
 .scala_dependencies
 .worksheet
 .idea
-.jar
+*.jar
